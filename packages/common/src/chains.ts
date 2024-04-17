@@ -119,6 +119,12 @@ export const chains: ChainsDict = {
         timestamp: '1710338135',
         forkHash: '0x9f3d2254',
       },
+      {
+        name: 'prague',
+        block: null,
+        timestamp: '1710338135',
+        forkHash: '0x9f3d2254',
+      },
     ],
     bootstrapNodes: [
       {
