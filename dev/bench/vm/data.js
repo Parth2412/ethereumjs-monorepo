@@ -1,67 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1714217766888,
-  "repoUrl": "https://github.com/ethereumjs/ethereumjs-monorepo",
+  "lastUpdate": 1729009845035,
+  "repoUrl": "https://github.com/Parth2412/ethereumjs-monorepo",
   "entries": {
     "Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "jochembrouwer96@gmail.com",
-            "name": "Jochem Brouwer",
-            "username": "jochem-brouwer"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "a4130062d625011b39b9dc91ea477f06a49e7287",
-          "message": "Update EIP-2935 to latest draft spec (#3327)\n\n* common: update EIP2935\r\n\r\n* evm: update blockhash opcode\r\n\r\n* vm: update eip2935 logic + edit tests\r\n\r\n---------\r\n\r\nCo-authored-by: Holger Drewes <Holger.Drewes@gmail.com>",
-          "timestamp": "2024-03-18T11:33:48+01:00",
-          "tree_id": "ab7edb9bd55aa2763f01683103e823c80418b7f2",
-          "url": "https://github.com/ethereumjs/ethereumjs-monorepo/commit/a4130062d625011b39b9dc91ea477f06a49e7287"
-        },
-        "date": 1710758205717,
-        "tool": "benchmarkjs",
-        "benches": [
-          {
-            "name": "Block 9422905",
-            "value": 43499,
-            "range": "±3.18%",
-            "unit": "ops/sec",
-            "extra": "82 samples"
-          },
-          {
-            "name": "Block 9422906",
-            "value": 42975,
-            "range": "±1.23%",
-            "unit": "ops/sec",
-            "extra": "88 samples"
-          },
-          {
-            "name": "Block 9422907",
-            "value": 42588,
-            "range": "±1.38%",
-            "unit": "ops/sec",
-            "extra": "88 samples"
-          },
-          {
-            "name": "Block 9422908",
-            "value": 40463,
-            "range": "±3.48%",
-            "unit": "ops/sec",
-            "extra": "81 samples"
-          },
-          {
-            "name": "Block 9422910",
-            "value": 38412,
-            "range": "±4.60%",
-            "unit": "ops/sec",
-            "extra": "85 samples"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -1770,6 +1711,64 @@ window.BENCHMARK_DATA = {
             "range": "±1.78%",
             "unit": "ops/sec",
             "extra": "87 samples"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "indigophi@protonmail.com",
+            "name": "Scorbajio",
+            "username": "scorbajio"
+          },
+          "committer": {
+            "email": "@dependabot",
+            "name": "dependabot[bot]"
+          },
+          "distinct": true,
+          "id": "c7b54c6ba409092772e5e6ce36ef4a7061a1e415",
+          "message": "Remove unnecessary boolean comparisons when using isActivatedEIP (#3377) Scorbajio",
+          "timestamp": "2024-10-15T14:58:36Z",
+          "tree_id": "9b9cb199e8a191f4bc975f1650265cfc9c8b4a01",
+          "url": "https://github.com/Parth2412/ethereumjs-monorepo/commit/c7b54c6ba409092772e5e6ce36ef4a7061a1e415"
+        },
+        "date": 1729009844507,
+        "tool": "benchmarkjs",
+        "benches": [
+          {
+            "name": "Block 9422905",
+            "value": 42118,
+            "range": "±1.98%",
+            "unit": "ops/sec",
+            "extra": "85 samples"
+          },
+          {
+            "name": "Block 9422906",
+            "value": 39908,
+            "range": "±2.90%",
+            "unit": "ops/sec",
+            "extra": "87 samples"
+          },
+          {
+            "name": "Block 9422907",
+            "value": 40693,
+            "range": "±1.42%",
+            "unit": "ops/sec",
+            "extra": "90 samples"
+          },
+          {
+            "name": "Block 9422908",
+            "value": 39563,
+            "range": "±1.73%",
+            "unit": "ops/sec",
+            "extra": "87 samples"
+          },
+          {
+            "name": "Block 9422910",
+            "value": 38599,
+            "range": "±1.77%",
+            "unit": "ops/sec",
+            "extra": "86 samples"
           }
         ]
       }
